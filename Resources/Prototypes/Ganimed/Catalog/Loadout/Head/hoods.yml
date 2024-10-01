@@ -1,0 +1,20 @@
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHoodMoth
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatHoodMoth
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHoodNunHood
+  category: loadout-category-head
+  cost: 3
+  exclusive: true
+  prototype: ClothingHeadHatHoodNunHood
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHoodGoliathCloak
+  category: loadout-category-head
+  cost: 3
+  exclusive: true
+  prototype: ClothingHeadHatHoodGoliathCloak
