@@ -98,3 +98,16 @@
   id: DiscountedItems
   name: store-discounted-items
   priority: 200
+  
+#Heretic
+- type: storeCategory
+  id: HereticAbilities
+  name: store-category-heretic-abilities
+
+- type: storeCategory
+  id: HereticVoidAbilities
+  name: store-category-heretic-void-abilities
+
+- type: storeCategory
+  id: HereticAshAbilities
+  name: store-category-heretic-ash-abilities  

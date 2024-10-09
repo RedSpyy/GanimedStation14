@@ -158,7 +158,7 @@
     soundHit:
       collection: Punch
     angle: 30
-    animation: WeaponArcFist
+    animation: WeaponArcFist 
     attackRate: 1
     damage:
       types:
@@ -166,6 +166,7 @@
   - type: SleepEmitSound
   - type: SSDIndicator
   - type: StandingState
+  - type: HereticCanSucrificied  
   - type: Dna
   - type: MindContainer
     showExamineInfo: true
@@ -225,6 +226,10 @@
   id: BaseMobSpeciesOrganic
   abstract: true
   components:
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface 
   - type: Barotrauma
     damage:
       types:
@@ -239,7 +244,7 @@
         Heat: -0.07
       groups:
         Brute: -0.07
-  - type: Fingerprint
+  - type: Fingerprint 
   - type: Blindable
   # Other
   - type: Temperature

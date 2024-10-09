@@ -9,6 +9,11 @@
   id: StolenEssence
   displayName: store-currency-display-stolen-essence
   canWithdraw: false
+  
+- type: currency
+  id: HereticKnowledge
+  displayName: store-currency-display-knowledge
+  canWithdraw: false
 
 - type: currency
   id: WizCoin
